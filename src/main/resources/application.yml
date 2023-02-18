@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    default: local
+application:
+  title: MySpringBatchExample Project
+  version: 1.0
+---
+
+spring:
+  config:
+    activate:
+      on-profile: local
+server:
+  port: 8081
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: dev
+server:
+  port: 8080
