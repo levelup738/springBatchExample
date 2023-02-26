@@ -1,4 +1,4 @@
-package com.tsoft.batch;
+package com.my.batch;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
